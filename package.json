@@ -1,0 +1,16 @@
+{
+  "name": "karpo-deepdive",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "biome lint .",
+    "format": "biome format --write .",
+    "check": "biome check --write ."
+  },
+  "devDependencies": {
+    "turbo": "catalog:",
+    "@biomejs/biome": "catalog:"
+  },
+  "packageManager": "pnpm@10.27.0"
+}
